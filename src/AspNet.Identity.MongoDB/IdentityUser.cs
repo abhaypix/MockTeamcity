@@ -10,6 +10,7 @@
 
 	public class IdentityUser : IUser<string>
 	{
+		//Testing
 		public IdentityUser()
 		{
 			Id = ObjectId.GenerateNewId().ToString();
