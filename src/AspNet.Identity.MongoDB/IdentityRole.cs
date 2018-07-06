@@ -6,6 +6,7 @@
 
 	public class IdentityRole : IRole<string>
 	{
+		//Testing
 		public IdentityRole()
 		{
 			Id = ObjectId.GenerateNewId().ToString();
